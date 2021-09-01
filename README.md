@@ -14,9 +14,9 @@
 
 ### Sobre o projeto:
 
-A página **<Home/>** consiste em um título e um **<Link/>** para a página **<Prateleira/>**.
+A página **```<Home/>```** consiste em um título e um **<Link/>** para a página **<Prateleira/>**.
 
-A página **<Prateleira/>** possui um **<Link/>** para voltar para **<Home/>** e, também, os componentes **<PizzasList/>** e **<AddPizzaForm/>**.
+A página **<Prateleira/>** possui um **<Link/>** para voltar para **```<Home/>```** e, também, os componentes **<PizzasList/>** e **<AddPizzaForm/>**.
 
 **<PizzasList/>** consiste em uma ```<div>``` com um ```map``` para gerar as pizzas, usando o componente **<Pizza/>**, utilizando as props **ingredientes** passadas pelo componente pai: **<Prateleira/>**.
 
