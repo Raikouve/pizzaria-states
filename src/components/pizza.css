@@ -1,0 +1,125 @@
+#root {
+  --gray-color: hsl(0, 0%, 70%);
+  --pizza-color: hsl(44, 97%, 57%);
+  --recheio-color: hsl(0, 78%, 46%);
+  --tempero-color: hsl(120, 90%, 28%);
+  --tempero-color-secondary: hsl(120, 90%, 38%);
+  --adicional-color: hsl(27, 80%, 48%);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.prateleira-page {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.prateleira {
+  align-self: center;
+  border: 2px solid black;
+  border-radius: 7px;
+  display: flex;
+  height: 50%;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 70%;
+}
+
+.pizzas-list {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 100%;
+}
+
+.pizza {
+  align-items: center;
+  background-color: var(--pizza-color);
+  border: 5px solid rgb(209, 131, 14);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 175px;
+  margin: 5px;
+  justify-content: center;
+  width: 175px;
+}
+
+.pizza .recheio {
+  color: var(--recheio-color);
+  font-weight: 600;
+}
+
+.pizza .tempero {
+  color: var(--tempero-color);
+  font-weight: 600;
+}
+
+.pizza .adicional {
+  color: var(--adicional-color);
+  font-weight: 600;
+}
+
+.home-link {
+  align-items: center;
+  background-color: var(--recheio-color);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-weight: 600;
+  height: 2em;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 10em;
+}
+
+.addpizza {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.addpizza-container {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.addpizza-container p {
+  margin-bottom: 1em;
+}
+
+.addpizza-button {
+  background-color: var(--tempero-color);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  margin: 1em auto 0;
+  padding: 0.5em;
+  text-transform: uppercase;
+  transition: 300ms ease;
+  width: 12em;
+}
+
+.addpizza-button:hover {
+  background-color: var(--tempero-color-secondary);
+  cursor: pointer;
+}
+
+.addpizza input {
+  border: 1px solid var(--gray-color);
+  border-radius: 5px;
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+.addpizza input:focus {
+  outline: none;
+}
