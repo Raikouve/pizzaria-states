@@ -1,0 +1,56 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* html, body, #app, #app>.homepage {
+  height: 100%
+} */
+
+body > #root > .homepage {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+.header span {
+  color: var(--recheio-color);
+}
+
+.prateleira-container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.prateleira-link {
+  align-items: center;
+  background-color: var(--recheio-color);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-weight: 600;
+  height: 2em;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 10em;
+}
+
+.prateleira h1 {
+  text-align: center;
+  width: 100%;
+}
