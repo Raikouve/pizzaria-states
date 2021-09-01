@@ -22,7 +22,7 @@ export default class AddPizzaForm extends Component {
     this.setState(state);
   }
   // Consultado em: https://pt.stackoverflow.com/questions/476269/onchange-em-react-n%C3%A3o-funcionando 
-  // Usuário: novic
+  // Usuário: novic 
   handleClick() {
     const { onClick } = this.props;
     onClick(this.state);
