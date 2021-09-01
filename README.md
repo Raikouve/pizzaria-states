@@ -4,13 +4,13 @@
 ### Páginas e Componentes:
 
 **Páginas:**
-- Home
-- Prateleira
+- [Home](https://github.com/Raikouve/pizzaria-states/blob/main/src/pages/Home.jsx)
+- [Prateleira](https://github.com/Raikouve/pizzaria-states/blob/main/src/pages/Prateleira.jsx)
 
 **Componentes:**
-- PizzasList
-- Pizza
-- AddPizzaForm
+- [PizzasList](https://github.com/Raikouve/pizzaria-states/blob/main/src/components/PizzasList.jsx)
+- [Pizza](https://github.com/Raikouve/pizzaria-states/blob/main/src/components/Pizza.jsx)
+- [AddPizzaForm](https://github.com/Raikouve/pizzaria-states/blob/main/src/components/AddPizzaForm.jsx)
 
 ### Sobre o projeto:
 
